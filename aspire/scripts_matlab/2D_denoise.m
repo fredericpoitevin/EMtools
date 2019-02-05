@@ -3,7 +3,7 @@ clear all, close all
 totTime = tic;
 
 
-addpath '/home/users/fpoitevi/Toolkit/EM-devel/aspire/aspire/';
+addpath '/home/users/fpoitevi/Toolkit/EMtools/aspire/aspire/';
 initpath
 
 %% PATH INFO TO DATA
