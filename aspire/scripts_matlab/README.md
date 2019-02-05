@@ -1,3 +1,6 @@
 # Scripts
 
-We store here our own scripts
+## process.m
+
+2D denoising 
+

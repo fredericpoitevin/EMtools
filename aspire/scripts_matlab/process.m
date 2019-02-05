@@ -3,18 +3,19 @@ clear all, close all
 totTime = tic;
 
 
-addpath '/home/wang/Software/aspire_new/ASPIRE/aspire-v0/';
+addpath '/home/users/fpoitevi/Toolkit/EM-devel/aspire/aspire/';
 initpath
 
 %% PATH INFO TO DATA
-star_path='/home/wang/Software/aspire_new/ASPIRE/aspire-v0/scripts_matlab/frederick_dataset/70S_apo_10142016_stack0163_extract.star';
-prefix='/home/wang/Software/aspire_new/ASPIRE/aspire-v0/scripts_matlab/frederick_dataset/';
+%%star_path='/scratch/users/fpoitevi/data/f20_oct2016/Extract/job015/particles_subset.star';
+star_path='/scratch/users/fpoitevi/data/f20_oct2016/Extract/job015/particles.star';
+prefix='/scratch/users/fpoitevi/data/f20_oct2016/';
 
 
 % PARAMETERS
 num_pool = num_cores()  ;       % number of workers
-n_im = 99;              % number of images
-n_noise = 99;        % number of images for noise estimation
+n_im = 1000;              % number of images
+n_noise = 100;        % number of images for noise estimation
 downsampleddim = 120; % image size
 %c = 0.25;             % bandlimit (?)
 %R = 150;              % (?)
