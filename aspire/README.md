@@ -8,5 +8,7 @@ this repository stores our current implementation of ASPIRE, so we are all on th
 3. download and extract [SHT](https://www.mathworks.com/matlabcentral/fileexchange/43856-real-complex-spherical-harmonic-transform--gaunt-coefficients-and-rotations?requestedDomain=www.mathworks.com), add to `initpath.m`
 4. download and extract [CWF](https://github.com/PrincetonUniversity/cwf_denoise), add to `initpath.m`
 #
+```
 ln -s polarch-Spherical-Harmonic-Transform-4f4cf39 SHT
 ln -s ASPIREv0.13 aspire
+```
