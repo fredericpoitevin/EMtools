@@ -2,14 +2,13 @@ clear all, close all
 
 totTime = tic;
 
-
 addpath '/home/users/fpoitevi/Toolkit/EMtools/aspire/aspire/';
 initpath
 
-%% PATH INFO TO DATA
-%%star_path='/scratch/users/fpoitevi/data/f20_oct2016/Extract/job015/particles_subset.star';
-star_path='/scratch/users/fpoitevi/data/f20_oct2016/Extract/job015/particles.star';
-prefix='/scratch/users/fpoitevi/data/f20_oct2016/';
+% PATH INFO TO DATA
+% edit below to where things are 
+star_path='/.../data/Extract/job015/particles.star';
+prefix='/.../data/';
 
 
 % PARAMETERS
