@@ -1,0 +1,2 @@
+2019/02/24 15:21:05	2019/02/24 15:21:05	 28108/    -2	langev2	/Users/fpoitevi/anaconda3/envs/eman-env/bin/e2proc2d.py mrcs_dir+mrcsfile mrcsfile --unstacking
+2019/02/24 15:54:31	2019/02/24 15:54:47	 31779/    -2	langev2	/Users/fpoitevi/anaconda3/envs/eman-env/bin/e2proc2d.py /Users/fpoitevi/gdrive/cryoEM/Projects/2016-rib70s-F20/data/RawData/Nov10-2016/70S_apo_11102016_stack0001_movie.mrcs 70S_apo_11102016_stack0001_movie.mrcs --unstacking
