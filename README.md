@@ -1,2 +1,2 @@
 # EMtools
-a shared private git repo for EM development 
+a git repo for EM development 
